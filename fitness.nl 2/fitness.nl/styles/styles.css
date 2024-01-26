@@ -1,0 +1,201 @@
+
+h1{
+    color: black    ;
+    font-size: 70px;
+    text-align: center;
+    background-color: grey;
+    margin-top: 0;
+    width: 50%;
+    margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Css voor de h1. */
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Css voor de h2. */
+
+nav ul li a{
+    padding: 5px;
+    margin: 10px;
+    background-color: #ca3e39;
+    font-size: 30px;
+    text-decoration: none;
+    transition: background 250ms ease;
+    border-radius: 0.2em;
+    color: black;
+}
+/* Css voor de anchors die je navigeren naar de andere paginas. Transition zorgt ervoor dat de als je over de list items hovert hij geleidelijk groter wordt. */
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+/* Css die ervoor zorgt dat de ul li items in het midden en recht naast elkaar komen te staan. */
+
+nav ul li a:hover{
+    background: darkgrey;
+    padding: 0.5em;
+    border: black 3px solid;
+}
+/* Css die ervoor zorgt dat als je met je muis over de nav ul li a items hovert het blokje vergoot, grijs wordt en er een solid border van 3px omheen komt.  */
+
+header{
+    background-image: url(../images/gym.webp); 
+    height: 40vh;
+    background-position: center;
+}
+/* Css die ervoor zorgt dat de aangeroepen img op de achergrond van de header komt. */
+
+.schema{
+    background-image: url(../images/segbxsis2ihwoc0bg3ks.webp); 
+    height: 40vh;
+    background-position: center;
+}
+/* Css die ervoor zorgt dat de aangeroepen img op de achergrond van de header komt. */
+
+.voeding{
+    background-image: url(../images/voeding-thema-athenas.jpg); 
+    height: 40vh;
+    background-position: center;
+}
+/* Css die ervoor zorgt dat de aangeroepen img op de achergrond van de header komt. */
+
+.Supplementen{
+    background-image: url(../images/fitness-supplementen-3.jpeg) ;
+}
+/* Css die ervoor zorgt dat de aangeroepen img op de achergrond van de header komt.  */
+
+body{
+    background-color: rgb(110, 106, 99);
+}
+/* Css die ervoor zorgt dat de gehele body van de site grijs wordt. */
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Css die ervoor zorgt dat alle p'tjes een bepaalde grootte hebben en een bepaald lettertype. */
+
+section ul li{
+    font-size: 20px;
+}
+/* Css die ervoor zorgt dat de unorderdend list items in een section dezelfde grootte krijgen als de p'tjes. */
+
+footer{
+    margin-top: 150px;
+    width: 70%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+/* Css die ervoor zorgt dat er een footer is van een bepaalde breedte en hoogte die grijs is. display: flex zodat alles naast elkaar staat en niet boven elkaar. */
+
+footer ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+/* Css die zorgt voor verschillende veranderingen aan de ul die in de footer staat. */
+
+footer ul li a{
+    color: #efefef;
+}
+/* Css die ervoor zorgt dat de a'tjes in de ul li wit worden */
+
+footer{
+    text-align: center; 
+}
+/* Css die ervoor zorgt dat de text in de footer mooi verspreid in het midden staat. */
+
+footer h3{
+    letter-spacing: 1px;
+    margin-left: 2em;
+  
+}
+/* Css die ervoor zorgt dat de h3'tjes in de footer eem bepaald uiterlijk krijgen. */
+
+footer section{
+    display: flex;
+    flex-direction: column;
+}
+
+footer section:nth-child(2){
+    margin-left: 4em;
+}
+
+form:{
+    display: flex;
+    flex-direction: column;
+}
+    
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+    margin-left: 2em;
+}
+/* Css die ervoor zorgt dat de form input waar je je email in kan vullen een bepaald uiterlijk krijgt. */
+
+form button{
+    background: transparent ;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-left: 2em;
+}
+/* Css die ervoor zorgt dat de form button een bepaald uiterlijk krijgt. */
+
+
+.social-icons{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 4.3em;
+    color: #ca3e39;
+}
+/* Css die ervoor zorgt dat de social icons aan de bovenkant meer afstand hebben van <p> tags erboven.  */
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px; 
+}
+/* Css die ervoor zorgt dat de icons een bepaalde grootte hebben en er voldoende ruimte tussen zit. */
+
+.section1 { 
+    display: flex;
+    background-color: #ca3e39;
+    padding: 5px;
+    margin: 10px;
+}
+/* Css die ervoor zorgt dat er een rood blok om de img en text zit. */
+
+.texth {
+    margin-left:20px ;
+}
+/* Css die ervoor zorgt dat de tekst voldoende afstand heeft van de img die aan de linkerkant staat. */
+
+main section{
+    background:#ca3e39;
+    padding:1em;
+}
+/* Css die ervoor zorgt dat er achter alle main section een rode achtergrond zit. */
+
+section:nth-of-type(1) img {
+    float: right;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 20em;
+}
+/* Css die ervoor zorgt dat de img aam de rechter kant zit.  */

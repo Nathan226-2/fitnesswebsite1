@@ -1,0 +1,166 @@
+
+h1{
+    color: #ca3e39;  
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 0;
+    width: 50%;
+    margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* bron: https://kinsta.com/blog/css-text-outline/ */
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a{
+    padding: 5px;
+    margin: 10px;
+    background-color: #ca3e39;
+    font-size: 30px;
+    text-decoration: none;
+    transition: background 250ms ease;
+    border-radius: 0.2em;
+    color: black;
+    
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li a:hover{
+    background: darkgrey;
+    padding: 0.5em;
+    border: black 3px solid;
+
+}
+
+.schema{
+    background-image: url(../images/segbxsis2ihwoc0bg3ks.webp); 
+   height: 40vh;
+   background-position: center;
+}
+
+.voeding{
+   background-image: url(../images/voeding-thema-athenas.jpg); 
+   height: 40vh;
+   background-position: center;
+}
+
+.Supplementen{
+   background-image: url(../images/fitness-supplementen-3.jpeg) ;
+}
+
+body{
+    background-color: rgb(110, 106, 99);
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(../images/gym.webp); 
+    height: 40vh;
+    background-position: center;
+}
+
+section ul li{
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 150px;
+    width: 70%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+footer ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    flex-grow: 2;
+}
+
+footer ul li a{
+    color: #efefef;
+}
+
+
+footer{
+    text-align: center; 
+}
+
+footer h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none
+}
+
+form button{
+    background: transparent ;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px; 
+}
+
+.section1 { 
+    display: flex;
+    background-color: #ca3e39;
+    padding: 5px;
+    margin: 10px;
+}
+
+.texth {
+    margin-left:20px ;
+}
+
+main section{
+    background:#ca3e39;
+    padding:1em;
+}
+
+section:nth-of-type(1) img {
+    float: right;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 20em;
+    flex-grow: 1;
+}
